@@ -3,12 +3,12 @@
 /* css variables */
 :root {
 
-    --primary-font: "Quicksand", sans-serif;
+    --primary-font: "Quicksand", bold;
     --secondary-font: "Comic Relief", bold;
-     --primary-color: #400800; /*dark brown*/
+     --primary-color: #7c9563; /*green*/
     --secondary-color: #a6ae9d; /* light grey*/
-    --highlight-color: #7c9563; /*green*/
-    --highlight-color-light: #7a9fc2; /*light blue*/
+    --highlight-color:   #7a9fc2; /*light blue*/
+    --highlight-color-light:#400800; /*dark brown*/
 }
 /* Global styles */
 body {
@@ -34,6 +34,7 @@ h2 {
 .sub-heading-color {
 
     color: var(--highlight-color);
+    font-weight: bold;
 }
 
 .section {
