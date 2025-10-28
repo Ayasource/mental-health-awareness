@@ -45,6 +45,12 @@ h2 {
 #navbar {
     background-color: var(--primary-color);
 }
+
+/* Cards */
+#container .card{
+    margin-bottom: 1.5rem;
+}
+
 /* Footer/contact */
 
 #contact {
