@@ -82,6 +82,10 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
+.card {
+    margin-left: 18px;
+}
+
 /* Footer/contact */
 
 #contact {
