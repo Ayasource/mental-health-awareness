@@ -22,7 +22,9 @@ body {
  .container li {
     list-style: none;
  }
-
+.card-img-top{
+    object-fit: cover;
+}
 h1,
 h2,
 h3,
@@ -99,6 +101,9 @@ h2 {
     font-weight: bold;
 }
 
+#stress-card .card-body {
+padding-bottom: 29px;
+}
 /* Footer/contact */
 
 #contact {
