@@ -5,14 +5,17 @@
 
     --primary-font: "Quicksand", bold;
     --secondary-font: "Comic Relief", bold;
-     --primary-color: #7c9563; /*green*/
-    --secondary-color: #a6ae9d; /* light grey*/
-    --highlight-color:   #a6ae9d; /*light blue*/
+     --primary-color: #a0b18b; /*green*/
+    --secondary-color: #4d5648; /* light grey*/
+    --highlight-color:   #375c0a; /*light blue*/
     --highlight-color-light:#400800; /*dark brown*/
+    --secondary-background-color:#a0b18b ;
 }
 /* Global styles */
 body {
     font-family: var(--primary-font);
+    color: var(--highlight-color-light);
+    font-weight: bold;
 }
 
 h1,
@@ -70,7 +73,7 @@ h2 {
 
 /* Navbar */
 #navbar {
-    background-color: var(--highlight-color);
+    background-color: var(--secondary-background-color);
 }
 
 #navbar .logo {
@@ -86,6 +89,14 @@ h2 {
 .card {
     margin-left: 18px;
     margin-bottom: 50px;
+}
+
+.card-title {
+    color: var(--highlight-color);
+}
+.card-text {
+    color: var(--highlight-color-light);
+    font-weight: bold;
 }
 
 /* Footer/contact */
