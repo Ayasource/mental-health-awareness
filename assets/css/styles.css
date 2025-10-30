@@ -5,9 +5,9 @@
 
     --primary-font: "Quicksand", bold;
     --secondary-font: "Comic Relief", bold;
-     --primary-color: #a0b18b; /*green*/
-    --secondary-color: #4d5648; /* light grey*/
-    --highlight-color:   #375c0a; /*light blue*/
+     --primary-color: #a0b18b; /*light green*/
+    --secondary-color: #4d5648; /* dark grey*/
+    --highlight-color:   #375c0a; /*dark green*/
     --highlight-color-light:#400800; /*dark brown*/
     --secondary-background-color:#a0b18b ;
 }
@@ -28,7 +28,8 @@ body {
 h1,
 h2,
 h3,
-h4 {
+h4
+ {
     font-family: var(--secondary-font);
     color: var(--primary-color);
 }
