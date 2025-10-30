@@ -16,7 +16,12 @@ body {
     font-family: var(--primary-font);
     color: var(--highlight-color-light);
     font-weight: bold;
+   
 }
+
+ .container li {
+    list-style: none;
+ }
 
 h1,
 h2,
@@ -25,12 +30,7 @@ h4 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
 }
-
-h1,
-h2 {
-
-}
-
+ 
 h2 {
     margin-bottom: 2rem;
 }
